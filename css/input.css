@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.grid-card{
+    @apply border border-black/30
+}
