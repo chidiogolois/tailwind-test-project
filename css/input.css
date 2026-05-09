@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
-.grid-card{
-    @apply border border-black/30
+@theme {
+    --color-myown: #152032;
+    --color-primary: #172556
 }
+
+.container {
+    @apply bg-blue-950 border border-gray-800 space-x-6 p-8 rounded-2xl text-left hover:border-gray-700 
+}
+
